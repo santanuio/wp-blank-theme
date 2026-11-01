@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tattoo Studio</title>
+    <!-- keep font at the top -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/tattoo-critical.css" />
+    <!-- <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" 
+        media="print" 
+        onload="this.media='all'"> -->
+    <link
+      rel="stylesheet"
+      href="css/tattoo-main.css"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript>
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"> -->
+      <link rel="stylesheet" href="css/tattoo-main.css" />
+    </noscript>
+  </head>
+  <body id="js-body">
+    <nav class="nav nav--fixed nav--autohide" aria-label="Primary Navigation">
+      <div class="o-container">
+        <div class="nav__flex">
+          <!-- left -->
+          <div class="nav__option1">
+            <div class="logo">
+              santanu<span>hub</span>
+              <!-- <img
+                src="images/logo.svg"
+                width="180"
+                height="40"
+                alt="SantanuHub Logo"
+              /> -->
+            </div>
+          </div>
+          <!-- center -->
+          <div class="nav__option2">
+            <ul class="nav__ul">
+              <li>
+                <a class="nav__link" href="index.html" aria-current="page"
+                  >Work</a
+                >
+              </li>
+              <li><a class="nav__link" href="about.html">About</a></li>
+              <li><a class="nav__link" href="services.html">Services</a></li>
+            </ul>
+          </div>
+          <!-- right -->
+          <div class="nav__option3 o-d-flex o-gap-15 o-items-center">
+            <a href="contact.html" class="o-btn o-btn-primary o-btn-sm">Contact Me </a>
+            <!-- hamburger-icon -->
+            <div class="hamburger-icon" id="js-hamburger-icon">
+              <div>
+                <span class="hamburger-icon__area">
+                  <span class="hamburger-icon__span"></span>
+                  <span class="hamburger-icon__span"></span>
+                  <span class="hamburger-icon__span"></span>
+                </span>
+              </div>
+            </div>
+            <!-- /hamburger-icon -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Side Menu -->
+    <div class="o-side-menu" id="js-side-menu">
+      <nav class="o-side-menu__nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li class="o-side-menu__dropdown">
+            <a href="#">Services</a>
+            <div class="o-side-menu__dropdown-button" id="js-dropdown-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-plus-lg o-side-menu__plus"
+                id="js-show"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-dash-lg o-side-menu__subs"
+                id="js-hide"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
+                />
+              </svg>
+            </div>
+            <ul class="o-side-menu__dropdown-menu" id="js-mobile-dropdown">
+              <li><a href="#">Service 01</a></li>
+              <li><a href="#">Service 02</a></li>
+              <li><a href="#">Service 03</a></li>
+              <li><a href="#">Service 04</a></li>
+              <li><a href="#">Service 05</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /Side Menu -->
+
+    <div class="o-container">
+      <div class="o-row">
+        <div class="o-col-md-12">
+          <h1 class="title-h1 o-mt-30">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna.
+          </h1>
+          <h2 class="title-h2 o-mt-30">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna.
+          </h2>
+          <h3 class="title-h3 o-mt-30">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna.
+          </h3>
+          <p class="sub-title o-mt-30">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p class="o-mt-30">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p class="p-sm o-mt-30">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <br />
+          <div
+            style="
+              background-color: #151515;
+              padding: 50px;
+              border-radius: 10px;
+              border: 1px solid #262626;
+            "
+          >
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <button class="o-btn o-btn-primary o-btn-xl o-mt-30">Book Now</button>
+        </div>
+      </div>
+    </div>
+   <script src="js/tattoo-main.js" defer></script>
+  </body>
+</html>
