@@ -16,9 +16,10 @@
     ?>
   </h1>
 
-  <?php if ( have_posts() ) : ?>
+  <?php if ( have_posts() ) { ?>
     <div class="o-mt-30">
-      <?php while ( have_posts() ) : the_post(); ?>
+      <?php while ( have_posts() ) {
+        the_post(); ?>
         <article <?php post_class( 'o-mt-30' ); ?>>
           <h2 class="title-h3">
             <a href="<?php echo esc_url( get_permalink() ); ?>"><?php echo esc_html( get_the_title() ); ?></a>
@@ -27,14 +28,14 @@
             <?php the_excerpt(); ?>
           </div>
         </article>
-      <?php endwhile; ?>
+      <?php } ?>
     </div>
 
     <div class="o-mt-30">
       <?php the_posts_pagination(); ?>
     </div>
-  <?php else : ?>
+  <?php } else { ?>
     <p class="o-mt-30"><?php esc_html_e( 'No content found.', 'blankslate-child' ); ?></p>
-  <?php endif; ?>
+  <?php } ?>
 </section>
 <?php get_footer(); ?>
